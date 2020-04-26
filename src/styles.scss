@@ -1,1 +1,28 @@
+@import '~bootstrap/scss/bootstrap';
+@import './theme.scss';
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.flight-btn{
+  background-color: #f08c2e;
+  color: #222;
+  border:1px solid #f08c2e;
+  transition: .3s;
+  &:hover{
+    background-color: transparent;
+    color: #fff;
+  }
+  &:focus{
+    box-shadow: none;
+    border: 1px solid #f08c2e;
+    outline: none;
+  }
+}

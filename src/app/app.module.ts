@@ -51,10 +51,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
 import { HomeComponent } from './components/home/home.component';
+import { PopularComponent } from './components/popular/popular.component';
+import { SubscribeComponent } from './components/subscribe/subscribe.component';
+import { FooterComponent } from './components/footer/footer.component';
 // Material ModulesEnds
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, PopularComponent, SubscribeComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

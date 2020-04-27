@@ -1,0 +1,74 @@
+.popular {
+  .section-title {
+    margin-bottom: 45px;
+  }
+
+  .popular-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    .top-img {
+      img {
+        height: 180px;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+      }
+    }
+
+    &-des {
+      padding: 5px 10px;
+
+      .price {
+        color: #333;
+        font-weight: 600;
+        text-transform: uppercase;
+        span {
+          color: #f08c2e;
+        }
+      }
+      .info {
+        color: #aaa;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+      p {
+        margin-bottom: 5px;
+      }
+      .flight-add {
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #333;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+      }
+      .book {
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #aaa;
+        span {
+          color: #f08c2e;
+        }
+      }
+    }
+    .card-footer {
+      padding: 5px 10px;
+      display: flex;
+      justify-content: space-between;
+      .flight-btn {
+        text-transform: uppercase;
+        color: #333;
+        font-size: 14px;
+        &:hover {
+          color: #333;
+        }
+      }
+      a {
+        display: flex;
+        align-items: center;
+        color: #aaa;
+        text-decoration: none;
+      }
+    }
+  }
+}

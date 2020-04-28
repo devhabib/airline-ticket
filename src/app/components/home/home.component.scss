@@ -24,6 +24,16 @@
 
     h1 {
       font-weight: 600;
+
+      @media screen and (max-width: 991px) {
+        font-size: 33px;
+      }
+    }
+
+    h2 {
+      @media screen and (max-width: 991px) {
+        font-size: 24px;
+      }
     }
   }
 
@@ -39,15 +49,22 @@
     }
   }
 
+  mat-radio-group {
+    display: flex;
+    margin-top: 20px;
+  }
+
   mat-form-field {
     width: 100%;
   }
 
-  
-
   mat-tab-group {
+    margin-top: 10px;
     display: inline-block;
     width: 100%;
-    margin: auto;
+  }
+
+  @media screen and (max-width: 767px) {
+    height: auto;
   }
 }

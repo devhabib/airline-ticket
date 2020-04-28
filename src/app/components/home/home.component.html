@@ -1,19 +1,19 @@
 <section class="home">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-12">
         <div class="home-content text-center">
           <h2 class="display-6">{{ topHead | titlecase }} </h2>
           <h1 class="display-3">{{ bottomHead | titlecase }} </h1>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 col-sm-12">
         <mat-radio-group>
           <mat-radio-button class="example-margin" value="after">One Way</mat-radio-button>
           <mat-radio-button class="example-margin" value="before">Round</mat-radio-button>
         </mat-radio-group>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-5 col-md-6 col-sm-12">
         <mat-tab-group>
           <mat-tab label="Regular Fare">
           </mat-tab>
@@ -21,19 +21,19 @@
           </mat-tab>
         </mat-tab-group>
       </div>
-      <div class="col-lg-1">
+      <div class="col-lg-1 col-md-2 col-sm-6">
         <mat-form-field>
           <mat-label>Adults</mat-label>
           <input matInput type="number" placeholder="1" min="1">
         </mat-form-field>
       </div>
-      <div class="col-lg-1">
+      <div class="col-lg-1 col-md-2 col-sm-6">
         <mat-form-field>
           <mat-label>Child</mat-label>
           <input matInput type="number" placeholder="1" min="1">
         </mat-form-field>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-4">
         <div class="single-item">
           <mat-form-field>
             <mat-label><i class="material-icons">gps_fixed</i> From</mat-label>
@@ -46,7 +46,7 @@
           </mat-form-field>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-4">
         <div class="single-item">
           <mat-form-field>
             <mat-label><i class="material-icons">gps_fixed</i> To</mat-label>
@@ -59,7 +59,7 @@
           </mat-form-field>
         </div>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 col-md-4">
         <div class="single-item">
           <mat-form-field>
             <mat-label>Departure</mat-label>
@@ -69,7 +69,7 @@
           </mat-form-field>
         </div>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 col-md-4">
         <div class="single-item">
           <mat-form-field>
             <mat-label>Return</mat-label>
@@ -79,7 +79,7 @@
           </mat-form-field>
         </div>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 col-md-4">
         <button class="flight-btn btn d-flex align-items-center"><i class="material-icons">search</i> Search</button>
       </div>
     </div>

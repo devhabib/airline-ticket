@@ -56,6 +56,9 @@ input.mat-input-element {
       font-size: 40px;
       letter-spacing: 3px;
       font-weight: 600;
+      @media screen and (max-width: 991px) {
+        font-size: 30px;
+    }
     }
   }
 }

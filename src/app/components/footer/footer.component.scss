@@ -7,6 +7,10 @@ footer {
       color: #fff;
       border-right: 1px solid #aaa;
 
+      @media screen and (max-width: 991px) {
+        border: none;
+      }
+
       &-header {
         margin-bottom: 20px;
 
@@ -21,6 +25,8 @@ footer {
           p {
             border: 1px solid #fff;
             margin: 5px;
+            padding: 5px;
+            line-height: 12px;
           }
         }
 
@@ -40,12 +46,103 @@ footer {
             }
           }
         }
+
+        .social {
+          width: 160px;
+
+          @media screen and (max-width: 991px) {
+            display: flex;
+            width: 100%;
+
+            li {
+              margin-right: 5px;
+
+              a {
+                padding-right: 10px;
+              }
+            }
+          }
+
+          @media screen and (max-width: 767px) {
+            display: block;
+            width: 100%;
+
+            li {
+              margin-right: 5px;
+
+              a {
+                padding-right: 10px;
+              }
+            }
+          }
+
+          li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            margin-bottom: 5px;
+            border-radius: 10px;
+
+            a {
+              color: #fff;
+              text-decoration: none;
+              font-size: 16px;
+
+              i {
+                padding: 0 10px;
+              }
+            }
+
+            p {
+              margin: 0;
+              background-color: #fff;
+              color: #333;
+              padding: 10px;
+              border-radius: 10px;
+            }
+          }
+
+          .facebook {
+            background-color: #3A559F;
+          }
+
+          .google {
+            background-color: #DC4E41;
+          }
+
+          .twitter {
+            background-color: #01ADF7;
+          }
+
+          .pinterest {
+            background-color: #EE2D34;
+          }
+        }
       }
     }
   }
 
   .footer-bottom {
     background-color: #171717;
+    color: #fff;
+    padding: 10px 0;
+
+    .logo {
+      font-size: 25px;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    p {
+      text-align: right;
+      margin: 0;
+      color: #fff;
+      text-transform: capitalize;
+      @media screen and (max-width: 767px) {
+        text-align: left;
+      }
+    }
   }
 }
 

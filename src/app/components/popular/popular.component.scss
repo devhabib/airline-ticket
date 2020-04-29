@@ -20,6 +20,7 @@
         height: 180px;
         object-fit: cover;
         border-radius: 5px 5px 0 0;
+        width: 100%;
 
         @media screen and (max-width: 991px) {
           height: 235px;
@@ -41,7 +42,7 @@
         text-transform: uppercase;
 
         span {
-          color: #f08c2e;
+          color: #e74c3c;
         }
       }
 
@@ -70,7 +71,7 @@
         color: #aaa;
 
         span {
-          color: #f08c2e;
+          color: #e74c3c;
         }
       }
     }
@@ -81,8 +82,9 @@
       justify-content: space-between;
 
       .flight-btn {
+        margin: 0;
         text-transform: uppercase;
-        color: #333;
+        color: #ddd;
         font-size: 14px;
 
         &:hover {

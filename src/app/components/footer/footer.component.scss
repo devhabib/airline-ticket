@@ -1,11 +1,11 @@
 footer {
   .footer-top {
     padding: 30px 0;
-    background-color: #333;
+    background-color: #f5f5f5;
 
     .single-footer {
-      color: #fff;
-      border-right: 1px solid #aaa;
+      color: #222;
+      border-right: 1px solid #222;
 
       @media screen and (max-width: 991px) {
         border: none;
@@ -15,7 +15,7 @@ footer {
         margin-bottom: 20px;
 
         h3 {
-          color: #fff;
+          color: #222;
           text-transform: uppercase;
         }
       }
@@ -23,7 +23,7 @@ footer {
       &-list {
         .countries {
           p {
-            border: 1px solid #fff;
+            border: 1px solid #222;
             margin: 5px;
             padding: 5px;
             line-height: 12px;

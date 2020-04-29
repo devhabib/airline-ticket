@@ -12,18 +12,18 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .flight-btn{
-  background-color: #f08c2e;
-  color: #222;
-  border:1px solid #f08c2e;
+  background-color: #e74c3c;
+  color: #ddd;
+  border:1px solid #e74c3c;
   transition: .3s;
-  font-weight: 600;
+  margin-top: 5px;
   &:hover{
     background-color: transparent;
     color: #fff;
   }
   &:focus{
     box-shadow: none;
-    border: 1px solid #f08c2e;
+    border: 1px solid #e74c3c;
     outline: none;
   }
 }
@@ -39,9 +39,9 @@ input.mat-input-element {
   text-align: center;
   .sub-title{
     display: inline-block;
-    border-bottom: 3px solid #f08c2e;
+    border-bottom: 3px solid #e74c3c;
     p{
-      color: #f08c2e;
+      color: #e74c3c;
       font-weight: 700;
       font-size: 24px;
       text-transform: uppercase;

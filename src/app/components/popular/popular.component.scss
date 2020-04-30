@@ -1,103 +1,49 @@
-.popular {
-  .section-title {
-    margin-bottom: 45px;
+.section-title {
+  margin-bottom: 45px;
 
-    @media screen and (max-width: 991px) {
-      margin-bottom: 30px;
+  @media screen and (max-width: 991px) {
+    margin-bottom: 30px;
+  }
+}
+
+.img-box {
+  transition: 0.3s;
+  overflow: hidden;
+
+  &:hover {
+    .single-img {
+      img {
+        transform: scale(1.2);
+      }
     }
   }
 
-  .popular-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
+  .single-img {
+    overflow: hidden;
 
-    @media screen and (max-width: 991px) {
-      margin-bottom: 30px;
+    img {
+      transition: 0.3s;
+      display: block;
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+      height: 350px;
+      object-fit: cover;
     }
+  }
 
-    .top-img {
-      img {
-        height: 180px;
-        object-fit: cover;
-        border-radius: 5px 5px 0 0;
-        width: 100%;
+  .img-details {
+    padding: 10px 15px;
+    background-color: #130f40;
+    color: #fff;
 
-        @media screen and (max-width: 991px) {
-          height: 235px;
-        }
-
-        @media screen and (max-width: 767px) {
-          height: 100%;
-          width: 100%;
-        }
-      }
-    }
-
-    &-des {
-      padding: 5px 10px;
-
-      .price {
-        color: #333;
-        font-weight: 600;
-        text-transform: uppercase;
-
-        span {
-          color: #e74c3c;
-        }
-      }
-
-      .info {
-        color: #aaa;
-        font-size: 14px;
-        text-transform: uppercase;
-      }
-
-      p {
-        margin-bottom: 5px;
-      }
-
-      .flight-add {
-        font-size: 17px;
-        text-transform: uppercase;
-        color: #333;
-        font-weight: 600;
-        letter-spacing: 1px;
-        margin-bottom: 5px;
-      }
-
-      .book {
-        text-transform: uppercase;
-        font-size: 13px;
-        color: #aaa;
-
-        span {
-          color: #e74c3c;
-        }
-      }
-    }
-
-    .card-footer {
-      padding: 5px 10px;
+    a {
       display: flex;
-      justify-content: space-between;
-
-      .flight-btn {
-        margin: 0;
-        text-transform: uppercase;
-        color: #ddd;
-        font-size: 14px;
-
-        &:hover {
-          color: #333;
-        }
-      }
-
-      a {
-        display: flex;
-        align-items: center;
-        color: #aaa;
-        text-decoration: none;
-      }
+      align-items: center;
+      color: #e74c3c;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 1px;
     }
   }
 }

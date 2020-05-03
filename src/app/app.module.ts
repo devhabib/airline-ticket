@@ -55,6 +55,8 @@ import { PopularComponent } from './components/popular/popular.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DealsComponent } from './components/deals/deals.component';
+import { PackageComponent } from './components/package/package.component';
+import { ShortcutComponent } from './components/shortcut/shortcut.component';
 // Material ModulesEnds
 
 @NgModule({
@@ -66,6 +68,8 @@ import { DealsComponent } from './components/deals/deals.component';
     SubscribeComponent,
     FooterComponent,
     DealsComponent,
+    PackageComponent,
+    ShortcutComponent,
   ],
   imports: [
     BrowserModule,

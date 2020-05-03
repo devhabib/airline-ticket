@@ -1,0 +1,31 @@
+.shortcut {
+  background-color: #130f40;
+  color: #fff;
+
+  .shortcut-items {
+    .shortcut-header {
+      margin-bottom: 20px;
+
+      h3 {
+        color: #e74c3c;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 23px;
+      }
+    }
+
+    .shortcut-list {
+      ul {
+        li {
+          display: block;
+
+          a {
+            color: #fff;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}

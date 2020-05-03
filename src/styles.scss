@@ -1,7 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
 @import './theme.scss';
 /* You can add global styles to this file, and also import other style files */
-
 html,
 body {
   height: 100%;
@@ -11,17 +10,21 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-.flight-btn{
+
+.flight-btn {
   background-color: #e74c3c;
   color: #ddd;
-  border:1px solid #e74c3c;
+  border: 1px solid #e74c3c;
   transition: .3s;
   margin-top: 5px;
-  &:hover{
+  text-transform: capitalize;
+
+  &:hover {
     background-color: transparent;
-    color: #222;
+    color: #fff;
   }
-  &:focus{
+
+  &:focus {
     box-shadow: none;
     border: 1px solid #e74c3c;
     outline: none;
@@ -33,14 +36,16 @@ input.mat-input-element {
   color: #fff;
 }
 
-.section-title{
+.section-title {
   display: table;
   margin: auto;
   text-align: center;
-  .sub-title{
+
+  .sub-title {
     display: inline-block;
     border-bottom: 3px solid #e74c3c;
-    p{
+
+    p {
       color: #e74c3c;
       font-weight: 700;
       font-size: 24px;
@@ -49,29 +54,50 @@ input.mat-input-element {
       letter-spacing: 3px;
     }
   }
-  .main-title{
+
+  .main-title {
     margin-top: 5px;
-    h3{
+
+    h3 {
       text-transform: uppercase;
       font-size: 40px;
       letter-spacing: 3px;
       font-weight: 600;
+
       @media screen and (max-width: 991px) {
         font-size: 30px;
+      }
     }
+  }
+
+  @media screen and (max-width: 767px) {
+    .sub-title {
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .main-title {
+      h3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+      }
     }
   }
 }
 
 mat-radio-group {
-    margin: 0;
+  margin: 0;
 
-    mat-radio-button {
-      padding: 0 5px;
-      color: #fff;
+  mat-radio-button {
+    padding: 0 5px;
+    color: #fff;
 
-      label {
-        margin-bottom: 0 !important;
-      }
+    label {
+      margin-bottom: 0 !important;
     }
   }
+}
+.modal-body {
+  
+}
